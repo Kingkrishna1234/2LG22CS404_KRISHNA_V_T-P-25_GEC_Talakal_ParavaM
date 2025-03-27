@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.studentcrud.model.Employee;
-import com.example.studentcrud.repository.AbidEmployeeRepository;
+import com.example.studentcrud.repository.krishEmployeeRepository;
 
 @Service
 public class AbidEmployeeService {
 
     @Autowired
-    private  AbidEmployeeRepository employeeRepository;
+    private  krishEmployeeRepository employeeRepository;
 
     public List<Employee> listAll() {
         return employeeRepository.findAll();

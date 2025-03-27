@@ -4,5 +4,5 @@ import org.springframework.stereotype.Repository;
 import com.example.studentcrud.model.Employee;
 
 @Repository
-public interface AbidEmployeeRepository extends JpaRepository<Employee, Long>  {
+public interface krishEmployeeRepository extends JpaRepository<Employee, Long>  {
 }
